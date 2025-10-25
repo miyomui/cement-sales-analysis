@@ -1,0 +1,18 @@
+# Python Virtual Environment
+/.venv
+/venv/
+/env/
+
+# Python cache files and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE/Editor specific files (Examples)
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db

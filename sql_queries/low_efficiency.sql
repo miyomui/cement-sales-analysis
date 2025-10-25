@@ -1,5 +1,3 @@
-USE cement_factory;
-
 SELECT 
     month,
     production,

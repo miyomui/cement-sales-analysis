@@ -1,4 +1,4 @@
-month,production,sales,demand,population,gdp,disbusment,interestrate,efficiency,fulfillment,production_gap
+﻿month,production,sales,demand,population,gdp,disbusment,interestrate,efficiency,fulfillment,production_gap
 2010-01-01,347.0,322.0,346.0,122.4,182277.0,60314.0,10.25,0.9279538904899135,0.930635838150289,25.0
 2010-02-01,306.0,285.0,338.0,122.5,181018.0,61213.92,10.33,0.9313725490196079,0.8431952662721893,21.0
 2010-03-01,236.0,245.0,276.0,122.6,179759.0,62113.83,10.42,1.0381355932203389,0.8876811594202898,-9.0
