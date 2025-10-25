@@ -1,4 +1,4 @@
-# Cement Sales Analysis and Forecasting
+# Cement Sales Analysis & ETL Pipeline
 
 [![Python Version](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
