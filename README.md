@@ -8,7 +8,6 @@
 
 ## ชุดข้อมูล (Dataset)
 
-อธิบายข้อมูลที่ใช้:
 * **แหล่งที่มา:** [https://www.kaggle.com/datasets/kishorkhengare/cement-sales-demand](https://www.kaggle.com/datasets/kishorkhengare/cement-sales-demand)
 * **ช่วงเวลา:** 2010-2022 (รายเดือน)
 * **ตัวแปรสำคัญ:** Production, Sales, Demand, GDP, Population, Interest Rate, etc.
