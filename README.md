@@ -61,6 +61,7 @@
 * **📦 requirements.txt**: รายชื่อ Library ที่จำเป็นสำหรับโปรเจกต์นี้
 
 
+
 ### ชุดข้อมูล
 * **แหล่งที่มา:** [Kaggle: Cement Sales Demand](https://www.kaggle.com/datasets/kishorkhengare/cement-sales-demand)
 * **ช่วงเวลา:** 2010-2022 (รายเดือน)
@@ -89,6 +90,60 @@
 ### Project Overview
 This project analyzes monthly cement sales data from 2010 to 2022. The objective is to understand growth trends and seasonal patterns, calculate and evaluate key performance indicators (KPIs) such as production efficiency and market demand fulfillment, and forecast future sales for the next 12 months using a Time Series model (Prophet). This project demonstrates data analysis and modeling skills as part of preparation for a Data Analyst/Data Scientist internship application.
 
+### File Structure Description
+```text
+.
+├── 📊 dashboard/
+│   └── dashboard.pbix
+├── 💾 data/
+│   ├── processed/
+│   │   ├── cement_factory.db
+│   │   └── cleaned_cement_data.csv
+│   ├── query_results/
+│   │   ├── gdp_correlation.csv
+│   │   ├── kpi_efficiency.csv
+│   │   ├── low_efficiency.csv
+│   │   ├── production_gap.csv
+│   │   └── yearly_summary.csv
+│   └── raw/
+│       └── raw_cement_data.csv
+├── 📓 notebooks/
+│   ├── 01_analysis_and_forecasting.ipynb
+│   └── 02_sql_query_examples.ipynb
+├── 🔍 sql_queries/
+│   ├── gdp_correlation.sql
+│   ├── kpi_efficiency.sql
+│   ├── low_efficiency.sql
+│   ├── production_gap.sql
+│   └── yearly_summary.sql
+├── 🛠️ src/
+│   ├── __init__.py
+│   ├── data_cleaner.py
+│   └── pipeline.py
+├── .gitignore
+├── 📝 README.md
+└── 📦 requirements.txt
+```
+
+**File Structure Description**
+
+* **📊 dashboard/**
+  * Contains Power BI files (`.pbix`) for data visualization and interactive dashboards.
+* **💾 data/**
+  * Stores data at various stages of the pipeline:
+    * `raw/`: Original, immutable raw data.
+    * `processed/`: Cleaned and transformed data ready for analysis (available in both CSV and SQLite `.db` formats).
+    * `query_results/`: Specific datasets exported as CSV files after running SQL queries.
+* **📓 notebooks/**
+  * Jupyter notebooks used for exploratory data analysis (EDA), forecasting models, and demonstrating SQL query usage within Python.
+* **🔍 sql_queries/**
+  * Contains standalone SQL scripts for specific analytical tasks (e.g., calculating KPIs, finding correlations, identifying efficiency gaps).
+* **🛠️ src/**
+  * Python source code for the project's core functionality, including data cleaning modules (`data_cleaner.py`) and the main data processing pipeline (`pipeline.py`).
+* **📦 requirements.txt**
+  * Lists all the Python libraries and dependencies required to run this project.
+ 
+    
 ### Dataset
 * **Source:** [Kaggle: Cement Sales Demand](https://www.kaggle.com/datasets/kishorkhengare/cement-sales-demand)
 * **Time Period:** 2010-2022 (Monthly)
